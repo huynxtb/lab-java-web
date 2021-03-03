@@ -1,0 +1,15 @@
+com\charity\dto\NewDTO.class
+com\charity\service\impl\NewService.class
+com\charity\dto\PhotoDTO.class
+com\charity\repository\NewRepository.class
+com\charity\dto\AbstractDTO.class
+com\charity\entity\PhotoEntity.class
+com\charity\repository\PhotoRepository.class
+com\charity\service\IPhotoService.class
+com\charity\convert\NewConvert.class
+com\charity\convert\PhotoConvert.class
+com\charity\service\impl\PhotoService.class
+com\charity\entity\NewEntity.class
+com\charity\controller\web\HomeController.class
+com\charity\config\JPAConfig.class
+com\charity\service\INewService.class

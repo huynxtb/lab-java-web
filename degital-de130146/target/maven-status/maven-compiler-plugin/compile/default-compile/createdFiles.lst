@@ -1,0 +1,10 @@
+com\myblog\entity\NewEntity.class
+com\myblog\dto\AbstractDTO.class
+com\myblog\dto\NewDTO.class
+com\myblog\service\INewService.class
+com\myblog\service\impl\NewService.class
+com\myblog\controller\web\HomeController.class
+com\myblog\repository\NewRepository.class
+com\myblog\config\JPAConfig.class
+com\myblog\convert\NewConvert.class
+com\myblog\entity\BaseEntity.class

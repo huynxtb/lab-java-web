@@ -1,0 +1,35 @@
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+"http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+    <!-- Configuration for the default package. -->
+    <package name="default" extends="struts-default">
+        <action name = "" class = "controller.ProductAction" method = "displayTop2Popular">
+            <result name = "success">Home.jsp</result>
+        </action>
+        <action name = "home" class = "controller.ProductAction" method = "displayTop2Popular">
+            <result name = "success">Home.jsp</result>
+        </action>
+        <action name = "allProducts" class = "controller.ProductAction" method = "displayAll">
+            <result name = "success">DisplayAllProducts.jsp</result>
+        </action>
+        <action name = "cake" class = "controller.ProductAction" method = "display">
+            <result name = "success">Cake.jsp</result>
+            <result name = "none" type = "chain">home</result>
+        </action>
+        <action name = "about" class = "controller.AboutAction">
+            <result name = "success">About.jsp</result>
+        </action>
+        <action name = "findMyCafe" class = "controller.ContactAction">
+            <result name = "success">FindMyCafe.jsp</result>
+        </action>
+        <action name = "createNewProduct">
+            <result>CreateNewProduct.jsp</result>
+        </action>
+        <action name = "addNewProduct" class = "controller.AddNewProductAction">
+            <result name = "success" type="redirect">${url}</result>
+            <result name = "input">CreateNewProduct.jsp</result>
+        </action>
+    </package>
+</struts>

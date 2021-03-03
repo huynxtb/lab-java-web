@@ -1,0 +1,16 @@
+com\myfashion\convert\NewConvert.class
+com\myfashion\entity\BaseEntity.class
+com\myfashion\service\impl\MenuService.class
+com\myfashion\entity\ContactEntity.class
+com\myfashion\config\JPAConfig.class
+com\myfashion\dto\ContactDTO.class
+com\myfashion\convert\ContactConvert.class
+com\myfashion\entity\NewEntity.class
+com\myfashion\dto\AbstractDTO.class
+com\myfashion\repository\NewRepository.class
+com\myfashion\service\IMenuService.class
+com\myfashion\service\impl\NewService.class
+com\myfashion\controller\web\HomeController.class
+com\myfashion\repository\ContactRepository.class
+com\myfashion\dto\NewDTO.class
+com\myfashion\service\INewService.class

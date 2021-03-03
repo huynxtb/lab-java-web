@@ -1,0 +1,10 @@
+D:\MY WEBSITE\my-blog\src\main\java\com\myblog\dto\AbstractDTO.java
+D:\MY WEBSITE\my-blog\src\main\java\com\myblog\entity\NewEntity.java
+D:\MY WEBSITE\my-blog\src\main\java\com\myblog\config\JPAConfig.java
+D:\MY WEBSITE\my-blog\src\main\java\com\myblog\service\INewService.java
+D:\MY WEBSITE\my-blog\src\main\java\com\myblog\repository\NewRepository.java
+D:\MY WEBSITE\my-blog\src\main\java\com\myblog\dto\NewDTO.java
+D:\MY WEBSITE\my-blog\src\main\java\com\myblog\controller\web\HomeController.java
+D:\MY WEBSITE\my-blog\src\main\java\com\myblog\convert\NewConvert.java
+D:\MY WEBSITE\my-blog\src\main\java\com\myblog\service\impl\NewService.java
+D:\MY WEBSITE\my-blog\src\main\java\com\myblog\entity\BaseEntity.java
